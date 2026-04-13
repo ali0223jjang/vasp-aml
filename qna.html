@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Q&A — 가상자산 컴플 연구모임</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="header-logo" href="index.html">
+      <div class="header-title">가상자산 컴플 연구모임</div>
+      <div class="header-sub">거래소 · 커스터디 AML/컴플라이언스 실무자 정보공유</div>
+    </a>
+    <nav>
+      <a href="regulation.html">규제 대응</a>
+      <a href="schedule.html">일정</a>
+      <a href="meeting.html">모임 기록</a>
+      <a href="qna.html" class="active">Q&A</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-header">
+    <div class="page-title">💬 Q&A</div>
+    <div class="page-desc">채팅 질의응답 정리 · 실무 해석 사례</div>
+  </div>
+
+  <div class="cards-2col">
+
+    <!-- ── Q&A 카드 1 ── 새 카드 추가 시 이 블록 통째로 복사 후 내용 교체 ── -->
+    <div class="card">
+      <div class="card-meta">
+        <span class="card-date">2026.01.06</span>
+        <span class="badge badge-blue">이용자보호법</span>
+      </div>
+      <div class="card-title">해킹·전산장애 발생 시 당국 보고 의무 조항은?</div>
+      <hr class="card-divider" />
+      <div class="card-row">
+        <span class="card-label">질문</span>
+        <span class="card-value">전산장애·해킹 사고 발생 시 특금법 등 법령상 당국 보고 의무 조항이 있는지?</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">답변</span>
+        <span class="card-value">가상자산이용자보호법 제11조, 시행령 제17조 — 입출금 차단 사유 발생 시 금감원 FEDI 시스템으로 익일 18시까지 보고.</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">출처</span>
+        <span class="card-value" style="color:var(--text-hint);">설기환/플라이빗 CCO</span>
+      </div>
+    </div>
+    <!-- ── Q&A 카드 1 끝 ── -->
+
+    <!-- ── Q&A 카드 2 ── -->
+    <div class="card">
+      <div class="card-meta">
+        <span class="card-date">2025.11.05</span>
+        <span class="badge badge-blue">KYC</span>
+      </div>
+      <div class="card-title">법인 KYC 시 대표자 신분증 징구 필수 여부?</div>
+      <hr class="card-divider" />
+      <div class="card-row">
+        <span class="card-label">질문</span>
+        <span class="card-value">법인 고객확인 시 대표자 신분증 제출 어려운 경우 법인등기부등본+법인인감증명서로 갈음 가능한지?</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">답변</span>
+        <span class="card-value">대표자가 거래대리인이 아닌 경우 신분증 미징구 가능. 대표자 정보는 확인사항이며 검증사항이 아님. 대리인 위임장+대리인 신분증으로 대면 확인하는 방식도 병행.</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">출처</span>
+        <span class="card-value" style="color:var(--text-hint);">송혜주/KDAC</span>
+      </div>
+    </div>
+
+    <!-- ── Q&A 카드 3 ── -->
+    <div class="card">
+      <div class="card-meta">
+        <span class="card-date">2025.10.31</span>
+        <span class="badge badge-blue">마이데이터</span>
+      </div>
+      <div class="card-title">VASP에 마이데이터 전송요구권 적용 여부?</div>
+      <hr class="card-divider" />
+      <div class="card-row">
+        <span class="card-label">질문</span>
+        <span class="card-value">신용정보법 전송요구권 대응 시 어떤 프로그램·API로 이행해야 하는지?</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">답변</span>
+        <span class="card-value">현재 VASP는 전송요구대상 정보(시행령 별표1) 미보유로 전송 의무 없음. 단, 보유한 가상자산 거래정보는 신용정보에 해당 — 신용정보법상 의무 준수 필요. 향후 별표1 개정 시 의무 발생 가능.</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">출처</span>
+        <span class="card-value" style="color:var(--text-hint);">김성현/DSRV 변호사</span>
+      </div>
+    </div>
+
+    <!-- ── Q&A 카드 4 ── -->
+    <div class="card">
+      <div class="card-meta">
+        <span class="card-date">2025.11.03</span>
+        <span class="badge badge-blue">FIU 변경신고</span>
+      </div>
+      <div class="card-title">KYT 솔루션 도입 시 FIU 변경신고 대상인지?</div>
+      <hr class="card-divider" />
+      <div class="card-row">
+        <span class="card-label">질문</span>
+        <span class="card-value">체이널리시스 등 KYT 솔루션 도입이 FIU 변경신고 대상인지? 이상거래 FDS 도입은 갱신 신고 시 필수 조건인지?</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">답변</span>
+        <span class="card-value">KYT는 자금세탁방지시스템의 중요 변경사항 아님 — 변경신고 불요. FDS는 거래소(거래 발생 환경)는 필수, 지갑·수탁사업자는 해당 없음.</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">출처</span>
+        <span class="card-value" style="color:var(--text-hint);">권경/프라뱅 · 오유리/DSRV</span>
+      </div>
+    </div>
+
+    <!-- ── Q&A 카드 5 ── -->
+    <div class="card">
+      <div class="card-meta">
+        <span class="card-date">2026.03.06</span>
+        <span class="badge badge-blue">개인정보</span>
+      </div>
+      <div class="card-title">탈퇴 후 거래기록 보관 — 개인정보 분리 보관 방법은?</div>
+      <hr class="card-divider" />
+      <div class="card-row">
+        <span class="card-label">질문</span>
+        <span class="card-value">특금법 5년 + 이용자보호법 15년 보관 의무 상충 시, 탈퇴 후 개인정보는 폐기하고 거래기록만 보관하는 방식이 맞는지?</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">답변</span>
+        <span class="card-value">이용자보호법이 특별법으로 우선 적용 — 거래기록 15년 보존. 개인정보 분리 보관 시 가명화 처리 후 보관 권고. 완전 익명화는 AML 추적 불가로 부적합.</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">출처</span>
+        <span class="card-value" style="color:var(--text-hint);">조성욱/가디언홀딩스</span>
+      </div>
+    </div>
+
+    <!-- ── Q&A 카드 6 ── -->
+    <div class="card">
+      <div class="card-meta">
+        <span class="card-date">2026.01.06</span>
+        <span class="badge badge-blue">CARF</span>
+      </div>
+      <div class="card-title">CARF 비활성 고객도 실사 대상인지?</div>
+      <hr class="card-divider" />
+      <div class="card-row">
+        <span class="card-label">질문</span>
+        <span class="card-value">CARF 이행 시 활성·비활성(탈퇴 포함) 고객 모두 본인확인서를 징구해야 하는지?</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">답변</span>
+        <span class="card-value">비활성 고객은 실사 의무 예외 (이행규정 제40조 제2항). 특금법 시행령 제10조의20 제3호에 따라 거래가 제한된 이용자도 예외. 거래 재개 시 실사 의무 부활.</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">출처</span>
+        <span class="card-value" style="color:var(--text-hint);">송혜주/KDAC</span>
+      </div>
+    </div>
+
+    <!-- ── Q&A 카드 7 ── -->
+    <div class="card">
+      <div class="card-meta">
+        <span class="card-date">2025.11.26</span>
+        <span class="badge badge-blue">커스터디</span>
+      </div>
+      <div class="card-title">법인 고객 회계감사 시 금융거래조회서 발급 가능 여부?</div>
+      <hr class="card-divider" />
+      <div class="card-row">
+        <span class="card-label">질문</span>
+        <span class="card-value">고객사 회계감사 과정에서 수탁분에 대한 금융거래조회서 발송이 가능한지?</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">답변</span>
+        <span class="card-value">VASP는 금융거래조회 발급 기관이 아니나, 해당없음 또는 수탁수량 기재 방식으로 회신 가능. 회계법인 앞으로 발급 대응 권고. 잔액증명서도 발급 병행.</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">출처</span>
+        <span class="card-value" style="color:var(--text-hint);">송혜주/KDAC · 정정욱/KODA</span>
+      </div>
+    </div>
+
+    <!-- ── Q&A 카드 8 ── -->
+    <div class="card">
+      <div class="card-meta">
+        <span class="card-date">2026.02.13</span>
+        <span class="badge badge-blue">이용자보호법</span>
+      </div>
+      <div class="card-title">입출금 차단 시 금융위 보고 방법 및 즉시 기준은?</div>
+      <hr class="card-divider" />
+      <div class="card-row">
+        <span class="card-label">질문</span>
+        <span class="card-value">이용자의 가상자산 입출금 차단 시 금융위에 즉시 보고하여야 한다는 조항 관련 보고 방법과 즉시의 기준은?</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">답변</span>
+        <span class="card-value">이용자보호법에 따라 금감원 FEDI 시스템으로 보고. 익일 18시까지 보고 (사업자별 내부 기준 상이). 문서24 아닌 FEDI 시스템 이용.</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">출처</span>
+        <span class="card-value" style="color:var(--text-hint);">설기환/플라이빗 CCO</span>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  가상자산 컴플 연구모임 · 내부 정보공유용 · 외부 배포 금지
+</footer>
+
+</body>
+</html>
